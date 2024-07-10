@@ -114,3 +114,38 @@
 
 }
 /* section one end here */
+
+
+/* section two start here */
+.section-two{
+        
+    max-width: 90%;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    margin: 0 auto;
+
+}
+
+.section-two-title{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.section-two-title p{
+    margin: 24px 0px;
+    opacity: 0.7;
+}
+
+.inspiration-video{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
+}
+/* section two end here */
