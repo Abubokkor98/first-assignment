@@ -15,11 +15,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 652px;
-    max-width: 1440px;
+    height: 720px;
+    max-width: 1540px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* border: 2px solid red; */
 }
 
 .banner-image{
@@ -33,7 +34,7 @@
 
 }
 .banner-text h1{
-   font-size: 40px;
+   font-size: 45px;
    
 }
 .banner-text p {
@@ -51,3 +52,65 @@
     margin: 24px 0px;
 }
 /* banner end here */
+
+/* section one start here */
+.section-one{
+    /* border: 2px solid black; */
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.section-one-title{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.section-one-title p{
+    margin: 24px 0px;
+    opacity: 0.7;
+
+}
+
+.section-one-group-one, .section-one-group-two, .section-one-group-three{
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.group-one-text, .group-two-text, .group-three-text{
+    width: 50%;
+    text-align: left;
+    /* border: 2px solid blue; */
+    padding: 20px;
+}
+
+.group-one-text h2{
+    font-size: 20px;
+}
+
+.group-one-text p{
+    margin: 24px 0px;
+    opacity: 0.7;
+
+}
+.group-one-text button{
+    width: 100px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+}
+/* section one end here */
