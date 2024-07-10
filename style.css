@@ -20,7 +20,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 2px solid red; */
 }
 
 .banner-image{
@@ -55,7 +54,6 @@
 
 /* section one start here */
 .section-one{
-    /* border: 2px solid black; */
     max-width: 90%;
     height: auto;
     margin: 0 auto;
@@ -63,10 +61,8 @@
 }
 
 .section-one-title{
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     text-align: center;
     width: 80%;
@@ -81,8 +77,6 @@
 
 .section-one-group-one, .section-one-group-two, .section-one-group-three{
     display: flex;
-    /* flex-direction: column; */
-    /* border: 2px solid red; */
     width: 80%;
     margin: 0 auto;
     padding: 50px;
@@ -92,7 +86,6 @@
 .group-one-text, .group-two-text, .group-three-text{
     width: 50%;
     text-align: left;
-    /* border: 2px solid blue; */
     padding: 20px;
 }
 
@@ -121,14 +114,12 @@
         
     max-width: 90%;
     height: auto;
-    /* border: 2px solid black; */
     margin-top: 50px;
     margin: 0 auto;
 
 }
 
 .section-two-title{
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,14 +141,12 @@
 }
 /* section two end here */
 
+
 /* section three start here */
 .section-three{
     height: 720px;
-    /* border: 2px solid goldenrod; */
-
 }
 .target-title{
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,7 +161,6 @@
 }
 
 .target-card{
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -183,14 +171,11 @@
 }
 
 .card1, .card2, .card3{
-    /* border: 2px solid purple; */
     height: 300px;
     width: 364px;
     padding: 40px;
-
-    /* width: 50%; */
     text-align: left;
-    /* padding: 20px; */
+
 }
 .card1{
     background-color: #FFF6F4;
@@ -242,6 +227,7 @@
     display: block;
    margin: 20px 0px;
 }
+/* section three end here */
 
 
 
@@ -251,11 +237,11 @@
 }
 
 .support{
-        border: 2px solid red;
         background-image: url(assets/handshake.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        border-radius: 10px;
 
         display: flex;
         flex-direction: column;
@@ -292,3 +278,16 @@
     background: rgb(255, 255, 255);
 }
 /* section four end here */
+
+
+/* footer start here */
+.footer-section{
+    height: 80px;
+    max-width: 1540px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background-color: #def2f2;
+    padding: 32px 150px 32px 150px;
+}
+/* footer end here */
